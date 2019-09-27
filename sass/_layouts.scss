@@ -8,19 +8,25 @@
 
 .header{
     height: 7rem;
-    background-color:#fff;
+    //background-color:#fff;
     border-bottom: var(--color-grey-light-2);
-
-
+    background-color: blue;
 }
 
 .content{
+    display: flex;
 
 }
 
 .sidebar{
+    background-color: $color-grey-dark-1;
+    flex: 0 0 18%;
+    
 
 }
 .hotel-view{
+    background-color: #fff;
+    background-color: orangered;
+    flex: 1;//this means this should grow as much as it can
 
 }
