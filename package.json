@@ -1,0 +1,14 @@
+{
+  "name": "booking-app",
+  "version": "1.0.0",
+  "description": "Booking APP",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/styles.css -w"
+  },
+  "author": "DL",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
