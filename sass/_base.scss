@@ -28,6 +28,9 @@ $color-grey-dark-3:#999;
 $shadow-dark: 0 2rem 6rem rgba(55, 23, 233, 0.322);
 $line:1px solid #f4f2f2;
 $shadow-light: 0 2rem 5rem rgba(0,0,0,0.6);
+$bp-largest:75em;//1200px/16;
+$bp-large:68.75em;//1100px;
+$bp-medium:56.75em;//900px
 
 
 
@@ -43,6 +46,11 @@ $shadow-light: 0 2rem 5rem rgba(0,0,0,0.6);
 html{
     box-sizing: border-box;    
     font-size: 62.5%;//1rem = 10px; I want 10 pixels for 10pixels divide by 16px = 62.5%
+
+    @media only screen and (max-width: $bp-large) {
+        font-size: 50%;
+        
+    }
 }
 
 body{

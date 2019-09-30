@@ -4,6 +4,13 @@
     background-color: var(--color-grey-light-2);
     box-shadow: 0 2rem 6rem $shadow-dark;
     min-height: 50rem;
+
+    @media only screen and (max-width:$bp-largest) {
+        margin: 0;
+        max-width: 100%;
+        width: 100%
+
+    }
 }
 
 .header{
@@ -19,6 +26,9 @@
 
 .content{
     display: flex;
+    @media only screen and (max-width:$bp-medium){
+        flex-direction: column;
+    }
 
 }
 
@@ -48,6 +58,13 @@
     background-color: var(--color-grey-light-1);
     border-bottom: $line;
 
+    @media only screen and (max-width:$bp-medium) {
+        justify-content: center;
+        padding: 3rem;
+
+
+    }
+
 }
 .description{
     
@@ -56,6 +73,14 @@
     box-shadow: 0 2rem 5rem rgba(0,0,0,.06);
     padding: 3rem;
     background-color: #fff;
+
+    @media only screen and (max-width:$bp-medium) {
+        
+        padding: 2rem;
+        margin-right: 3rem;
+
+
+    }
 }
 
 .user-reviews{
