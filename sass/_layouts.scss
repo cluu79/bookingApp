@@ -10,7 +10,7 @@
     font-size: 1.4rem;
     height: 7rem;
     background-color:#fff;
-    border-bottom: var(--color-grey-light-2);
+    border-bottom: 1px solid var(--color-grey-light-2);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,8 +35,34 @@
 
 .hotel-view{
     background-color: #fff;
-    background-color: orangered;
+    
     flex: 1;//this means this should grow as much as it can
-    height: 82rem;
+    
+    
+}
+
+.detail{
+    display: flex;
+    padding: 4.5rem;
+    background-color: var(--color-grey-light-1);
+    border-bottom: $line;
+
+}
+.description{
+    
+    flex: 0 0 60%; // the two zeros means that we don't want it to grow and  shrink
+    margin-right: 4.5rem;
+    box-shadow: 0 2rem 5rem rgba(0,0,0,.06);
+    padding: 3rem;
+    background-color: #fff;
+    font-size: 1.4rem;
+    
+    
+
+}
+
+.user_reviews{
+    background-color: yellowgreen;
+    flex: 1;//occupy hte remaining space
 
 }
